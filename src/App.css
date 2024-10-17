@@ -1,38 +1,73 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  font-family: 'Arial', sans-serif; /* Imposta il font */
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #4caf50; /* Verde scuro per l'header */
+  min-height: 100vh; /* Altezza minima per coprire l'intera finestra */
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center; /* Centra il contenuto orizzontalmente */
+  justify-content: center; /* Centra il contenuto verticalmente */
+  font-size: calc(10px + 2vmin); /* Dimensione del font */
+  color: white; /* Colore del testo */
 }
 
-.App-link {
-  color: #61dafb;
+.profile-pic {
+ border-radius: 50%;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar {
+  background-color: #ff9800; /* Arancione per la navbar */
+  padding: 10px; /* Padding per la navbar */
+}
+
+.navbar ul {
+  list-style-type: none; /* Rimuove i punti dell'elenco */
+  padding: 0; /* Rimuove il padding dell'elenco */
+}
+
+.navbar li {
+  display: inline; /* Dispone gli elementi in linea */
+  margin: 0 15px; /* Margine tra gli elementi */
+}
+
+.navbar a {
+  text-decoration: none; /* Rimuove la sottolineatura */
+  color: white; /* Colore del link */
+}
+
+section {
+  margin: 20px; /* Margine per le sezioni */
+}
+
+h2 {
+  color: #4caf50; /* Verde scuro per i titoli delle sezioni */
+}
+
+.footer {
+  background-color: #2e7d32; /* Verde scuro per il footer */
+  color: white; /* Colore del testo nel footer */
+  padding: 10px; /* Padding per il footer */
+  position: relative; /* Posizionamento relativo per il footer */
+  bottom: 0; /* Posiziona il footer in basso */
+  width: 100%; /* Larghezza completa */
+}
+
+/* Animazioni */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear; /* Animazione della logo se necessario */
+  }
 }
 
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+    transform: rotate(0deg); /* Rotazione iniziale */
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(360deg); /* Rotazione finale */
   }
 }
