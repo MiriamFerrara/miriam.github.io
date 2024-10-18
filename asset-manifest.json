@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/miriam.github.io/static/css/main.cb5c95f3.css",
-    "main.js": "/miriam.github.io/static/js/main.2c7e72b1.js",
+    "main.css": "/miriam.github.io/static/css/main.cb31d8e8.css",
+    "main.js": "/miriam.github.io/static/js/main.857a745f.js",
     "static/js/453.4a315dde.chunk.js": "/miriam.github.io/static/js/453.4a315dde.chunk.js",
+    "static/media/miriamferrara.jpg": "/miriam.github.io/static/media/miriamferrara.b2df36b9a355c09626a7.jpg",
     "index.html": "/miriam.github.io/index.html",
-    "main.cb5c95f3.css.map": "/miriam.github.io/static/css/main.cb5c95f3.css.map",
-    "main.2c7e72b1.js.map": "/miriam.github.io/static/js/main.2c7e72b1.js.map",
+    "main.cb31d8e8.css.map": "/miriam.github.io/static/css/main.cb31d8e8.css.map",
+    "main.857a745f.js.map": "/miriam.github.io/static/js/main.857a745f.js.map",
     "453.4a315dde.chunk.js.map": "/miriam.github.io/static/js/453.4a315dde.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb5c95f3.css",
-    "static/js/main.2c7e72b1.js"
+    "static/css/main.cb31d8e8.css",
+    "static/js/main.857a745f.js"
   ]
 }
